@@ -1,10 +1,5 @@
-# Where2comm-V2X-Sim
 
 # Implement Where2comm with V2X-Sim-2 dataset
----
-**Author: Yihang Tao**
-
-> *Where2comm published its code implementation with DAIR-V2X dataset, while has not yet released code working on V2X-Sim-2 dataset.*
 
 ## Introduction
 

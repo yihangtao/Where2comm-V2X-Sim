@@ -24,9 +24,11 @@ cp -r HEAL/opencood/tools/ opencood/tools
 cp -r HEAL/opencood/utils/ opencood/utils
 cp -r HEAL/opencood/visualization/ opencood/visualization
 ```
-Create a new directory and download file "[v2xsim2_where2comm_attn_multiscale_resnet.yaml]()" to it.
+Create a new directory and download complement .yaml file.
 ```
 mkdir opencood/hypes_yaml/v2xsim2
+wget https://github.com/yihangtao/Where2comm-V2X-Sim/blob/main/Where2comm/opencood/hypes_yaml/v2xsim2/v2xsim2_where2comm_attn_multiscale_resnet.yaml
+mv v2xsim2_where2comm_attn_multiscale_resnet.yaml opencood/hypes_yaml/v2xsim2/v2xsim2_where2comm_attn_multiscale_resnet.yaml
 ```
 
 Modify opencood/data_utils/datasets of Where2comm.
